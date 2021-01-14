@@ -1,12 +1,12 @@
 {
   "name": "E-Pizza",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "author": "Shahriya Siddique <ps.shahriya@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "ejs": "^3.1.5",
@@ -14,6 +14,11 @@
     "express-ejs-layouts": "^2.5.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "laravel-mix": "^6.0.9",
+    "nodemon": "^2.0.7",
+    "postcss": "8.1",
+    "resolve-url-loader": "3.1.0",
+    "sass": "^1.32.4",
+    "sass-loader": "8.*"
   }
 }
