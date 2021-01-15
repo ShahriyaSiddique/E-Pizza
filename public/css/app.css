@@ -2,21 +2,20 @@ body {
   font-family: "lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #000;
-  height: 200vh;
 }
 
 nav li:last-child a {
-  background-color: #f79489;
+  background-color: #ef821e;
 }
 nav li:last-child a:hover {
-  background-color: #f8afa6;
+  background-color: #aa5d16;
 }
 
 nav li a {
   transition: all 0.3s ease-in-out;
 }
 nav li a:hover {
-  color: #f79489;
+  color: #ef821e;
 }
 
 section.hero {
@@ -25,11 +24,36 @@ section.hero {
 
 .add-to-cart {
   transition: all 0.3s ease-in-out;
-  border: 3px solid #f79489;
-  color: #f79489;
+  border: 3px solid #ef821e;
+  color: #ef821e;
 }
 .add-to-cart:hover {
-  background-color: #f79489;
+  background-color: #ef821e;
   color: #fff;
   border-color: #fff;
+}
+
+.btn-primary {
+  transition: all 0.3s ease-in-out;
+  background-color: #ef821e;
+}
+.btn-primary:hover {
+  background-color: #aa5d16;
+}
+
+.cart {
+  background-color: #f9f1f0;
+}
+
+.color-primary {
+  color: #ef821e;
+}
+
+section.login {
+  transition: all 0.3s ease-in-out;
+  min-height: calc(100vh - 5rem);
+  background-color: #f9f1f0;
+}
+section.login a:hover {
+  color: #aa5d16;
 }

@@ -1,0 +1,67 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/app.css" />
+  <title>E-Pizza</title>
+</head>
+
+<section class="login flex justify-center pt-24">
+  <div class="w-full max-w-xs">
+    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <div class="mb-4">
+        <label
+          class="block text-grey-darker text-sm font-bold mb-2"
+          for="email"
+        >
+          Email
+        </label>
+        <input
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline"
+          id="email"
+          type="email"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="mb-6">
+        <label
+          class="block text-grey-darker text-sm font-bold mb-2"
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3 leading-tight focus:outline-none focus:shadow-outline"
+          id="password"
+          type="password"
+          placeholder="******************"
+        />
+      </div>
+      <div class="flex items-center justify-between">
+        <button
+          class="btn-primary text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline"
+          type="button"
+        >
+          Login
+        </button>
+        <a
+          class="inline-block align-baseline font-bold text-sm color-primary"
+          href="/register"
+        >
+          Don't have an account?
+        </a>
+      </div>
+    </form>
+    <p class="text-center text-grey text-xs">
+      ©2021 E-Pizza. All rights reserved.
+    </p>
+  </div>
+</section>
