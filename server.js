@@ -61,6 +61,7 @@ app.use(flash());
 //assets
 app.use(express.static("public"));
 app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 //global middleware
 app.use((req, res, next) => {

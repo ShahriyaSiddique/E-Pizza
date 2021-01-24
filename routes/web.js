@@ -1,4 +1,8 @@
-const { login, register } = require("../app/http/controllers/authController");
+const {
+  login,
+  register,
+  postRegister,
+} = require("../app/http/controllers/authController");
 const {
   viewCartController,
   updateCartController,
@@ -10,6 +14,7 @@ function initRoutes(app) {
 
   app.get("/login", login);
   app.get("/register", register);
+  app.post("/register", postRegister);
 
   app.get("/cart", viewCartController);
   app.post("/update-cart", updateCartController);
